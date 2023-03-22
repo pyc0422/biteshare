@@ -2,15 +2,50 @@
 <img  src="https://user-images.githubusercontent.com/86500068/217312952-d522520d-0dac-4ab5-97fa-19c453df08fd.png"  width="200"  height="200" />
 
 ## The Team
-- [Matt Alexander](https://github.com/malexander6) (Product Manager)
-- [Heather Ray](https://github.com/bubsinthemountains) (Architecture Owner)
-- [Stacey Pereira](https://github.com/staceypereira1) (UI Owner)
-- [Yuchen Pan](https://github.com/pyc0422)
-- [Yui Murayama](https://github.com/Yui1002)
-- [Zachary Atha](https://github.com/zacharyatha)
+
+[@Matt Alexander](https://github.com/malexander6)&nbsp;&nbsp;| [@Heather Ray](https://github.com/bubsinthemountains)&nbsp;&nbsp;| [@Stacey Pereira](https://github.com/staceypereira1) &nbsp;&nbsp;| [@Yuchen Pan](https://github.com/pyc0422)&nbsp;&nbsp;  | [@Yui Murayama](https://github.com/Yui1002)&nbsp;&nbsp; |   [@Zachary Atha](https://github.com/zacharyatha)
+
+#### My Responsibility
+
+
+ - Created the homepage with carousal background images
+    
+   <img src="https://user-images.githubusercontent.com/86500068/220444963-63ad2732-6ab0-4d89-a341-d55a22c912e1.GIF" width="240" height="380" />
+ 
+ - Designed friends page and addfriends step page with side up add friends window
+ - Implemented friends' list in both friends page and addfriends step with swipe to delete function.
+ - Achived combine search bar and input to search friends and trigger add new friends popup window with MUI Autocomplete
+ 
+   <img src="https://user-images.githubusercontent.com/86500068/220459477-f4a7e94e-c474-4741-9ec7-9d6fd053dca3.GIF" width="240" height="380" />
+   <img src="https://user-images.githubusercontent.com/86500068/220459463-82a09713-8d95-48b8-bbac-a2f1afaf6bba.GIF" width="240" height="380" />
+   <img src="https://user-images.githubusercontent.com/86500068/220462531-1a3e90ad-bb85-4def-ba4a-8b993a8d3a06.GIF" width="240" height="380" />
+
+ - Wrapped all the individual steps to a whole step
+
+    <img src="https://user-images.githubusercontent.com/86500068/220462272-750424bd-fb51-4baa-b7bf-5b346e866acc.GIF" width="240" height="380" />
+   
 
 ## Introduction
 BiteShare is basically an app designed for splitting the bill among a group of would-be restaurant patrons in a fun and engaging way. We developed this over the span of 3 weeks as part of our final project before graduating from [Hack Reactor](https://www.hackreactor.com/). If you would like to try it out, check out our demo: [BiteShare Demo](https://biteshare.ecitytech.net).
+
+
+## What does BiteShare do?
+ - Create/login an account with phone number and password
+ - Start a new meal session (Priority Feature)
+   - Search nearby restrautant by zip code or city name with optional radios
+   - Add friends to this new meal session (search exist friend in friends list or add a new friend with phone number and name)
+   - Add bill details with uploading receipt function
+   - Review the whole session before create
+ - Notify all the friends with text messages
+ - Participant can pay the bill by click the url in the notification message as a guest
+ - Participant can add comments when pay the bill
+ - Social function
+   - Users could see their friends' recently meal session
+   - Can make reactions to each meal session
+   - Can see commends or add commends to each meal session
+ 
+   
+
 
 ## Tech stack
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -28,7 +63,7 @@ BiteShare is basically an app designed for splitting the bill among a group of w
 ![Babel](https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 - FrontEnd: React | Material UI | CSS
-- BackEnd: NodeJS | Express | MongoDB
+- BackEnd: NodeJS | Express | MongoDB | JWT
 - Testing: Jest | React Testing library
 - Deploy: MongoDB Atlas
 
